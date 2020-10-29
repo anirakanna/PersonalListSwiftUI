@@ -11,6 +11,12 @@
 		802C891A254B48EC0085DD1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802C8919254B48EC0085DD1F /* ContentView.swift */; };
 		802C891C254B48F30085DD1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 802C891B254B48F30085DD1F /* Assets.xcassets */; };
 		802C891F254B48F40085DD1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 802C891E254B48F40085DD1F /* Preview Assets.xcassets */; };
+		802C8928254B49320085DD1F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802C8927254B49320085DD1F /* Person.swift */; };
+		802C892B254B494E0085DD1F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802C892A254B494E0085DD1F /* DataManager.swift */; };
+		802C8934254B52C10085DD1F /* PersonalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802C8933254B52C10085DD1F /* PersonalList.swift */; };
+		802C893B254B57560085DD1F /* SectionPersonsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802C893A254B57560085DD1F /* SectionPersonsList.swift */; };
+		802C893E254B59200085DD1F /* ContactDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802C893D254B59200085DD1F /* ContactDetails.swift */; };
+		802C8941254B63920085DD1F /* PersonRowSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802C8940254B63920085DD1F /* PersonRowSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		802C891B254B48F30085DD1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		802C891E254B48F40085DD1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		802C8920254B48F40085DD1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802C8927254B49320085DD1F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		802C892A254B494E0085DD1F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		802C8933254B52C10085DD1F /* PersonalList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalList.swift; sourceTree = "<group>"; };
+		802C893A254B57560085DD1F /* SectionPersonsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionPersonsList.swift; sourceTree = "<group>"; };
+		802C893D254B59200085DD1F /* ContactDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetails.swift; sourceTree = "<group>"; };
+		802C8940254B63920085DD1F /* PersonRowSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRowSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,12 @@
 			children = (
 				802C8917254B48EC0085DD1F /* PersonalListSwiftUIApp.swift */,
 				802C8919254B48EC0085DD1F /* ContentView.swift */,
+				802C8933254B52C10085DD1F /* PersonalList.swift */,
+				802C893A254B57560085DD1F /* SectionPersonsList.swift */,
+				802C8940254B63920085DD1F /* PersonRowSection.swift */,
+				802C893D254B59200085DD1F /* ContactDetails.swift */,
+				802C892A254B494E0085DD1F /* DataManager.swift */,
+				802C8927254B49320085DD1F /* Person.swift */,
 				802C891B254B48F30085DD1F /* Assets.xcassets */,
 				802C8920254B48F40085DD1F /* Info.plist */,
 				802C891D254B48F40085DD1F /* Preview Content */,
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				802C893E254B59200085DD1F /* ContactDetails.swift in Sources */,
+				802C8928254B49320085DD1F /* Person.swift in Sources */,
+				802C892B254B494E0085DD1F /* DataManager.swift in Sources */,
 				802C891A254B48EC0085DD1F /* ContentView.swift in Sources */,
 				802C8918254B48EC0085DD1F /* PersonalListSwiftUIApp.swift in Sources */,
+				802C8941254B63920085DD1F /* PersonRowSection.swift in Sources */,
+				802C893B254B57560085DD1F /* SectionPersonsList.swift in Sources */,
+				802C8934254B52C10085DD1F /* PersonalList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
